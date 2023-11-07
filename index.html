@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Aarya's Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="https://kit.fontawesome.com/47a3b76bcf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/log1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>AI/ML Student</p>
+                <h1>Hi, I'am <span>Aarya</span></h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- --------------ABOUT-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_3843.JPG" height="811" width="624">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I possess a versatile skill set enriched by leadership roles such as being a house captain,
+                        demonstrating strong leadership and communication abilities. Notably, I excel in Microsoft
+                        PowerPoint, leveraging this skill to make presentations.
+                        Complementing my leadership and communication strengths, I have a keen interest in machine
+                        learning. I've included this passion into my academic journey by specializing in Artificial
+                        Intelligence and Machine Learning through IBM's AIML program at Chandigarh University. This
+                        specialization represents my interest and further enhancing my skill set.
+                        In addition to this, I also have strong proficiency in Linux and expertise in developing
+                        applications using Flutter and Dart, which further expand my skill set and technological
+                        capabilities.
+                    </p>
+                    <!-- --------------Titles In About Section--------------                     -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>App Development</span><br>Developing App using Flutter</li>
+                            <li><span>LINUX</span><br>Shell scripting & Bashing</li>
+                            <li><span>Machine Learning</span><br>Building ML models using scikit-learn</li>
+                            <li><span>Cloud Computing</span><br>Google cloud computing (basic level)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Flutter Bootcamp Winner</span><br>University level app development competition.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BE CSE Splz. AIML</span><br>Chandigarh University<br>2022-2026</li>
+                            <li><span>12th (Non-Medical)</span><br>Sishu Niketan Sr. Sec. School <br>Chandigarh<br>2022
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- --------------Service Section-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>ML Models</h2>
+                    <p>Empower your business with cutting-edge Machine Learning model development services. I
+                        specializes in making, high-performance models tailored to your unique needs.
+                        Leveraging state-of-the-art algorithms and data-driven insights, I design, train, and deploy
+                        robust ML solutions to drive innovation and efficiency within your organization.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Transform your ideas into intuitive, user-centric mobile applications with my expert app design
+                        services. I specialize in crafting engaging functional mobile apps that resonate
+                        with your audience.Whether it's iOS, Android, or cross-platform development, I focus on
+                        creating apps that seamlessly integrate cutting-edge technology and exceptional user experience
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Transform your ideas into a responsive, user-centric website. With a focus on cutting-edge design
+                        and the latest web technologies, I deliver visually stunning, responsive, and intuitive
+                        websites.Whether you need a brand-new site, a revamp of an existing one, or responsive mobile
+                        design, I am dedicated to creating captivating digital experiences that resonate with your
+                        audience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------Portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/w1.jpg">
+                    <div class="layer">
+                        <h3>Movies App</h3>
+                        <p>The app lets you know about the movies of different genres and movies according to your
+                            preferences.</p>
+                        <a href="https://github.com/ErebusAJ/PublicProjects/tree/ab02ee8d375fac260fbc704fd7b011344f265bc9/MovieApp"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/w3.jpg">
+                    <div class="layer">
+                        <h3>AI Disease Detection</h3>
+                        <p>This ML model with a camera can detect dermatological disease with a great accuracy.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/w2.jpg">
+                    <div class="layer">
+                        <h3>Bill Genrator</h3>
+                        <p>This is a restaurant bill generator using programming language C</p>
+                        <a href="https://github.com/ErebusAJ/PublicProjects/tree/ab02ee8d375fac260fbc704fd7b011344f265bc9/BillGenrator"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------Contact Section-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>brooksoulking008@gmail.com</p>
+                    <h1 class="sub-title2">Socials</h1>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/aarya-jamwal/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/ErebusAJ" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.kaggle.com/aaryajamwal" target="_blank"><i
+                                class="fa-brands fa-kaggle"></i></a>
+                        <a href="https://instagram.com/aaryajamwal?igshid=NzZlODBkYWE4Ng==" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="emial" name="Email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © aarya.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- --------------Function of skill section onclick-------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzewlqwZpHBatxo8ZELCR7DDoc2wEERWdX5e2mUHIDjbM0QlkkXV7gfi3PpJ_BoBBxV/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
